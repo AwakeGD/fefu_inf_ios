@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -18,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXf-N3-R6Y">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXf-N3-R6Y">
                                 <rect key="frame" x="74" y="68" width="150" height="150"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="chats"/>
@@ -29,7 +30,7 @@
                                     <segue destination="DXG-sd-NzP" kind="show" id="Nt2-cJ-J84"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="567-DI-YLk">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="567-DI-YLk">
                                 <rect key="frame" x="430" y="68" width="150" height="150"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="people"/>
@@ -37,7 +38,7 @@
                                     <rect key="frame" x="480" y="42" width="100" height="100"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erx-P6-qh7">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erx-P6-qh7">
                                 <rect key="frame" x="74" y="225" width="150" height="150"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="photos"/>
@@ -45,7 +46,7 @@
                                     <rect key="frame" x="26" y="225" width="100" height="100"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gz6-bL-d4N">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gz6-bL-d4N">
                                 <rect key="frame" x="257" y="225" width="150" height="150"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="study"/>
@@ -53,7 +54,7 @@
                                     <rect key="frame" x="250" y="225" width="100" height="100"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ega-BQ-KU3">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ega-BQ-KU3">
                                 <rect key="frame" x="430" y="226" width="150" height="150"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="news"/>
@@ -61,7 +62,7 @@
                                     <rect key="frame" x="480" y="225" width="100" height="100"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfE-Ks-gOT">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfE-Ks-gOT">
                                 <rect key="frame" x="74" y="390" width="150" height="150"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="announcements"/>
@@ -69,7 +70,7 @@
                                     <rect key="frame" x="26" y="447" width="100" height="100"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibc-JH-oiA">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibc-JH-oiA">
                                 <rect key="frame" x="257" y="390" width="150" height="150"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="carpool"/>
@@ -77,7 +78,7 @@
                                     <rect key="frame" x="250" y="447" width="100" height="100"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzA-2z-g2R">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzA-2z-g2R">
                                 <rect key="frame" x="430" y="396" width="150" height="150"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="interviews"/>
@@ -85,13 +86,16 @@
                                     <rect key="frame" x="480" y="447" width="100" height="100"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNX-QO-ynw">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNX-QO-ynw">
                                 <rect key="frame" x="257" y="68" width="150" height="150"/>
                                 <animations/>
                                 <state key="normal" title="Button" image="events"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="250" y="42" width="100" height="100"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="e1Q-04-DOL" kind="show" id="WU9-Hv-SA9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sel-cO-arX">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -246,6 +250,21 @@
                                 <exclude reference="7Bn-OY-vzm"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="M99-2A-jhW"/>
+                                <exclude reference="h5f-3Y-FQV"/>
+                                <exclude reference="lhI-Yc-4SA"/>
+                                <exclude reference="p7K-cG-sUA"/>
+                                <exclude reference="yYy-oI-Q0i"/>
+                                <exclude reference="1I2-19-BiL"/>
+                                <exclude reference="3hI-om-5Zk"/>
+                                <exclude reference="FlU-F9-LxB"/>
+                                <exclude reference="MeC-fB-i0V"/>
+                                <exclude reference="bqa-ma-QUB"/>
+                                <exclude reference="zf3-og-NjW"/>
+                                <exclude reference="1on-r7-j2t"/>
+                                <exclude reference="8cg-oW-DQf"/>
+                                <exclude reference="vGV-E3-38Q"/>
+                                <exclude reference="vma-m4-Ffg"/>
                                 <exclude reference="3Tv-7y-8pI"/>
                                 <exclude reference="Wyf-Qv-9JD"/>
                                 <exclude reference="cpD-mx-g7Z"/>
@@ -268,26 +287,16 @@
                                 <exclude reference="PG2-Cr-gC9"/>
                                 <exclude reference="Yw5-GW-klW"/>
                                 <exclude reference="eYv-hg-JfB"/>
+                                <exclude reference="PhJ-Zn-WiO"/>
+                                <exclude reference="eHe-8K-SZt"/>
+                                <exclude reference="gPf-OJ-iIv"/>
+                                <exclude reference="qIj-Ql-JFR"/>
                                 <exclude reference="252-5S-S1p"/>
                                 <exclude reference="Fv3-Cb-z5y"/>
                                 <exclude reference="Jhp-QH-xLQ"/>
                                 <exclude reference="mXK-xW-u6I"/>
                                 <exclude reference="nbn-ya-S8x"/>
                                 <exclude reference="r4x-4Q-tqF"/>
-                                <exclude reference="1on-r7-j2t"/>
-                                <exclude reference="8cg-oW-DQf"/>
-                                <exclude reference="vGV-E3-38Q"/>
-                                <exclude reference="vma-m4-Ffg"/>
-                                <exclude reference="PhJ-Zn-WiO"/>
-                                <exclude reference="eHe-8K-SZt"/>
-                                <exclude reference="gPf-OJ-iIv"/>
-                                <exclude reference="qIj-Ql-JFR"/>
-                                <exclude reference="1I2-19-BiL"/>
-                                <exclude reference="3hI-om-5Zk"/>
-                                <exclude reference="FlU-F9-LxB"/>
-                                <exclude reference="MeC-fB-i0V"/>
-                                <exclude reference="bqa-ma-QUB"/>
-                                <exclude reference="zf3-og-NjW"/>
                                 <exclude reference="B7G-wK-XP3"/>
                                 <exclude reference="aJK-Ic-oug"/>
                                 <exclude reference="ncK-NE-sk4"/>
@@ -310,11 +319,6 @@
                                 <exclude reference="pFN-hA-nDU"/>
                                 <exclude reference="pTs-6p-Ld2"/>
                                 <exclude reference="yM9-7O-ueE"/>
-                                <exclude reference="M99-2A-jhW"/>
-                                <exclude reference="h5f-3Y-FQV"/>
-                                <exclude reference="lhI-Yc-4SA"/>
-                                <exclude reference="p7K-cG-sUA"/>
-                                <exclude reference="yYy-oI-Q0i"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -326,6 +330,21 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="constraints">
+                                <include reference="M99-2A-jhW"/>
+                                <include reference="h5f-3Y-FQV"/>
+                                <include reference="lhI-Yc-4SA"/>
+                                <include reference="p7K-cG-sUA"/>
+                                <include reference="yYy-oI-Q0i"/>
+                                <include reference="1I2-19-BiL"/>
+                                <include reference="3hI-om-5Zk"/>
+                                <include reference="FlU-F9-LxB"/>
+                                <include reference="MeC-fB-i0V"/>
+                                <include reference="bqa-ma-QUB"/>
+                                <include reference="zf3-og-NjW"/>
+                                <include reference="1on-r7-j2t"/>
+                                <include reference="8cg-oW-DQf"/>
+                                <include reference="vGV-E3-38Q"/>
+                                <include reference="vma-m4-Ffg"/>
                                 <include reference="3Tv-7y-8pI"/>
                                 <include reference="Wyf-Qv-9JD"/>
                                 <include reference="cpD-mx-g7Z"/>
@@ -348,26 +367,16 @@
                                 <include reference="PG2-Cr-gC9"/>
                                 <include reference="Yw5-GW-klW"/>
                                 <include reference="eYv-hg-JfB"/>
+                                <include reference="PhJ-Zn-WiO"/>
+                                <include reference="eHe-8K-SZt"/>
+                                <include reference="gPf-OJ-iIv"/>
+                                <include reference="qIj-Ql-JFR"/>
                                 <include reference="252-5S-S1p"/>
                                 <include reference="Fv3-Cb-z5y"/>
                                 <include reference="Jhp-QH-xLQ"/>
                                 <include reference="mXK-xW-u6I"/>
                                 <include reference="nbn-ya-S8x"/>
                                 <include reference="r4x-4Q-tqF"/>
-                                <include reference="1on-r7-j2t"/>
-                                <include reference="8cg-oW-DQf"/>
-                                <include reference="vGV-E3-38Q"/>
-                                <include reference="vma-m4-Ffg"/>
-                                <include reference="PhJ-Zn-WiO"/>
-                                <include reference="eHe-8K-SZt"/>
-                                <include reference="gPf-OJ-iIv"/>
-                                <include reference="qIj-Ql-JFR"/>
-                                <include reference="1I2-19-BiL"/>
-                                <include reference="3hI-om-5Zk"/>
-                                <include reference="FlU-F9-LxB"/>
-                                <include reference="MeC-fB-i0V"/>
-                                <include reference="bqa-ma-QUB"/>
-                                <include reference="zf3-og-NjW"/>
                                 <include reference="B7G-wK-XP3"/>
                                 <include reference="aJK-Ic-oug"/>
                                 <include reference="ncK-NE-sk4"/>
@@ -390,11 +399,6 @@
                                 <include reference="pFN-hA-nDU"/>
                                 <include reference="pTs-6p-Ld2"/>
                                 <include reference="yM9-7O-ueE"/>
-                                <include reference="M99-2A-jhW"/>
-                                <include reference="h5f-3Y-FQV"/>
-                                <include reference="lhI-Yc-4SA"/>
-                                <include reference="p7K-cG-sUA"/>
-                                <include reference="yYy-oI-Q0i"/>
                             </mask>
                         </variation>
                     </view>
@@ -404,21 +408,61 @@
             </objects>
             <point key="canvasLocation" x="948" y="324"/>
         </scene>
+        <!--А тут зафигачим ленту новостей-->
+        <scene sceneID="OB5-rr-Sat">
+            <objects>
+                <collectionViewController title="А тут зафигачим ленту новостей" id="e1Q-04-DOL" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="kCx-Tp-kKs">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7Km-d3-Z6h">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="8Gs-nV-dZN">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <animations/>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="e1Q-04-DOL" id="s0k-oJ-Opd"/>
+                            <outlet property="delegate" destination="e1Q-04-DOL" id="G2H-Lk-cFO"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jcI-aw-8y9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1735.5" y="1000.5"/>
+        </scene>
         <!--Официально-->
         <scene sceneID="i0g-bT-NXi">
             <objects>
                 <tableViewController title="Официально" id="R9p-1G-T5x" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="DhX-H3-BTS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="S0C-iC-kc1" detailTextLabel="EJV-te-NSQ" imageView="3Xy-t7-pA0" style="IBUITableViewCellStyleSubtitle" id="fTG-y3-bcB">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fTG-y3-bcB" id="buq-L8-qsZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Общий чат ДВФУ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="S0C-iC-kc1">
+                                            <rect key="frame" x="73" y="1" width="139" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -429,6 +473,7 @@
                                             </variation>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EJV-te-NSQ">
+                                            <rect key="frame" x="73" y="22" width="59" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -439,6 +484,7 @@
                                             </variation>
                                         </label>
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="chats" id="3Xy-t7-pA0">
+                                            <rect key="frame" x="15" y="0.0" width="43" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <animations/>
                                         </imageView>
@@ -453,7 +499,7 @@
                             <outlet property="delegate" destination="R9p-1G-T5x" id="aM1-kh-KZg"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="ALe-nW-5Q5"/>
+                    <tabBarItem key="tabBarItem" title="Официально" id="u3j-5P-yrn"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Hg-GY-OYW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -464,13 +510,16 @@
             <objects>
                 <tableViewController title="Неофициально" id="IYL-JM-32a" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="xBr-jg-Bjq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="XKV-ow-x12">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XKV-ow-x12" id="CMk-am-Ruj">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <animations/>
                                 </tableViewCellContentView>
@@ -482,7 +531,7 @@
                             <outlet property="delegate" destination="IYL-JM-32a" id="XzD-04-XCo"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="xR9-W4-jRi"/>
+                    <tabBarItem key="tabBarItem" title="Неофициально" id="xR9-W4-jRi" userLabel="Неофициально"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tk8-ET-v7T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
