@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '84E7B605150E708BA197A87D'
+               BlueprintIdentifier = '3451DF77FE002AB12BA0AA5B'
                BlueprintName = 'Pods-FEFU informer'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_FEFU_informer.framework'>
