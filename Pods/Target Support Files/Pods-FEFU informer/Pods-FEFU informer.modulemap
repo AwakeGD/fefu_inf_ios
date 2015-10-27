@@ -1,0 +1,6 @@
+framework module Pods_FEFU_informer {
+  umbrella header "Pods-FEFU informer-umbrella.h"
+
+  export *
+  module * { export * }
+}

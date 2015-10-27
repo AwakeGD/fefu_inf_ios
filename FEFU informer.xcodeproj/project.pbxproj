@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA80E7514E3490E03CF50033 /* Pods_FEFU_informer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036F45022683FEFE452AF12 /* Pods_FEFU_informer.framework */; };
 		C9B9A44C1BDDF4AA0066A9A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9A44B1BDDF4AA0066A9A0 /* AppDelegate.swift */; };
 		C9B9A44E1BDDF4AA0066A9A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9A44D1BDDF4AA0066A9A0 /* ViewController.swift */; };
 		C9B9A4511BDDF4AA0066A9A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B9A44F1BDDF4AA0066A9A0 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C42040C443F93F9BFD1AC03 /* Pods-FEFU informer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEFU informer.release.xcconfig"; path = "Pods/Target Support Files/Pods-FEFU informer/Pods-FEFU informer.release.xcconfig"; sourceTree = "<group>"; };
+		98F924225FE93039297B2158 /* Pods-FEFU informer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEFU informer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FEFU informer/Pods-FEFU informer.debug.xcconfig"; sourceTree = "<group>"; };
+		A036F45022683FEFE452AF12 /* Pods_FEFU_informer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FEFU_informer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B9A4481BDDF4AA0066A9A0 /* FEFU informer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FEFU informer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B9A44B1BDDF4AA0066A9A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B9A44D1BDDF4AA0066A9A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA80E7514E3490E03CF50033 /* Pods_FEFU_informer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33725DDC141D589EED34E93E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A036F45022683FEFE452AF12 /* Pods_FEFU_informer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C9B9A43F1BDDF4AA0066A9A0 = {
 			isa = PBXGroup;
 			children = (
 				C9B9A44A1BDDF4AA0066A9A0 /* FEFU informer */,
 				C9B9A4491BDDF4AA0066A9A0 /* Products */,
+				CB00955BD702A324047D736C /* Pods */,
+				33725DDC141D589EED34E93E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = "FEFU informer";
 			sourceTree = "<group>";
 		};
+		CB00955BD702A324047D736C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98F924225FE93039297B2158 /* Pods-FEFU informer.debug.xcconfig */,
+				0C42040C443F93F9BFD1AC03 /* Pods-FEFU informer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9B9A45A1BDDF4AA0066A9A0 /* Build configuration list for PBXNativeTarget "FEFU informer" */;
 			buildPhases = (
+				14D430A19DD9AD362094A76A /* Check Pods Manifest.lock */,
 				C9B9A4441BDDF4AA0066A9A0 /* Sources */,
 				C9B9A4451BDDF4AA0066A9A0 /* Frameworks */,
 				C9B9A4461BDDF4AA0066A9A0 /* Resources */,
+				4EF73EE1AF758FB3D306280B /* Embed Pods Frameworks */,
+				4387B46A4545BE5A48CF6964 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14D430A19DD9AD362094A76A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4387B46A4545BE5A48CF6964 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FEFU informer/Pods-FEFU informer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EF73EE1AF758FB3D306280B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FEFU informer/Pods-FEFU informer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9B9A4441BDDF4AA0066A9A0 /* Sources */ = {
@@ -247,6 +322,7 @@
 		};
 		C9B9A45B1BDDF4AA0066A9A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F924225FE93039297B2158 /* Pods-FEFU informer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "FEFU informer/Info.plist";
@@ -258,6 +334,7 @@
 		};
 		C9B9A45C1BDDF4AA0066A9A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C42040C443F93F9BFD1AC03 /* Pods-FEFU informer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "FEFU informer/Info.plist";
@@ -286,6 +363,7 @@
 				C9B9A45C1BDDF4AA0066A9A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
