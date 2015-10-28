@@ -14,10 +14,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Alamofire.request(.GET, "http://31.131.24.188:8080/").responseString() {
-            data in
-            print(data)
-        }
+        
+        //let fileURL = NSBundle.mainBundle().URLForResource("image", withExtension: "png")
+        
+        //Alamofire.upload(.POST, "http://31.131.24.188:8080/registerUsers", file: fileURL!)
+        
+        //Alamofire.request(.POST, "http://31.131.24.188:8080/registerUsers", parameters: parameters, encoding: .JSON)
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 

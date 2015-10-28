@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AA80E7514E3490E03CF50033 /* Pods_FEFU_informer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036F45022683FEFE452AF12 /* Pods_FEFU_informer.framework */; };
+		C91C4F721BE12015002166C9 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = C91C4F711BE12015002166C9 /* image.png */; };
+		C91C4F741BE18EF0002166C9 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91C4F731BE18EF0002166C9 /* EventsViewController.swift */; };
+		C91C4F761BE190DB002166C9 /* EventsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91C4F751BE190DB002166C9 /* EventsViewCell.swift */; };
+		C91C4F781BE19279002166C9 /* EventsCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91C4F771BE19279002166C9 /* EventsCollectionViewLayout.swift */; };
 		C9B9A44C1BDDF4AA0066A9A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9A44B1BDDF4AA0066A9A0 /* AppDelegate.swift */; };
 		C9B9A44E1BDDF4AA0066A9A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9A44D1BDDF4AA0066A9A0 /* ViewController.swift */; };
 		C9B9A4511BDDF4AA0066A9A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B9A44F1BDDF4AA0066A9A0 /* Main.storyboard */; };
@@ -19,6 +23,10 @@
 		0C42040C443F93F9BFD1AC03 /* Pods-FEFU informer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEFU informer.release.xcconfig"; path = "Pods/Target Support Files/Pods-FEFU informer/Pods-FEFU informer.release.xcconfig"; sourceTree = "<group>"; };
 		98F924225FE93039297B2158 /* Pods-FEFU informer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FEFU informer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FEFU informer/Pods-FEFU informer.debug.xcconfig"; sourceTree = "<group>"; };
 		A036F45022683FEFE452AF12 /* Pods_FEFU_informer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FEFU_informer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91C4F711BE12015002166C9 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		C91C4F731BE18EF0002166C9 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		C91C4F751BE190DB002166C9 /* EventsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewCell.swift; sourceTree = "<group>"; };
+		C91C4F771BE19279002166C9 /* EventsCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCollectionViewLayout.swift; sourceTree = "<group>"; };
 		C9B9A4481BDDF4AA0066A9A0 /* FEFU informer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FEFU informer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B9A44B1BDDF4AA0066A9A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B9A44D1BDDF4AA0066A9A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,9 +80,13 @@
 				C9B9A44B1BDDF4AA0066A9A0 /* AppDelegate.swift */,
 				C9B9A44D1BDDF4AA0066A9A0 /* ViewController.swift */,
 				C9B9A44F1BDDF4AA0066A9A0 /* Main.storyboard */,
+				C91C4F751BE190DB002166C9 /* EventsViewCell.swift */,
 				C9B9A4521BDDF4AA0066A9A0 /* Assets.xcassets */,
+				C91C4F711BE12015002166C9 /* image.png */,
 				C9B9A4541BDDF4AA0066A9A0 /* LaunchScreen.storyboard */,
 				C9B9A4571BDDF4AA0066A9A0 /* Info.plist */,
+				C91C4F731BE18EF0002166C9 /* EventsViewController.swift */,
+				C91C4F771BE19279002166C9 /* EventsCollectionViewLayout.swift */,
 			);
 			path = "FEFU informer";
 			sourceTree = "<group>";
@@ -152,6 +164,7 @@
 				C9B9A4561BDDF4AA0066A9A0 /* LaunchScreen.storyboard in Resources */,
 				C9B9A4531BDDF4AA0066A9A0 /* Assets.xcassets in Resources */,
 				C9B9A4511BDDF4AA0066A9A0 /* Main.storyboard in Resources */,
+				C91C4F721BE12015002166C9 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91C4F781BE19279002166C9 /* EventsCollectionViewLayout.swift in Sources */,
 				C9B9A44E1BDDF4AA0066A9A0 /* ViewController.swift in Sources */,
+				C91C4F741BE18EF0002166C9 /* EventsViewController.swift in Sources */,
 				C9B9A44C1BDDF4AA0066A9A0 /* AppDelegate.swift in Sources */,
+				C91C4F761BE190DB002166C9 /* EventsViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
