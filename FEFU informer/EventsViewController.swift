@@ -11,4 +11,6 @@ import UIKit
 class EventsViewController: UICollectionViewController{
     
     @IBOutlet var eventCollectionView: UICollectionView!
+    
+    
 }
