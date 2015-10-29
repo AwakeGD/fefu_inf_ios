@@ -16,6 +16,12 @@ class OfficialEventsViewController: UICollectionViewController {
     let imageArray = [UIImage(named: "image"), UIImage(named: "image"), UIImage(named: "image"), UIImage(named: "image")]
     
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.officialEventsCollectionView.backgroundColor = UIColor.whiteColor()
+    }
+    
+    
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int{
         return self.appleProducts.count
     }
