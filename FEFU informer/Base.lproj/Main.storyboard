@@ -193,17 +193,36 @@
             </objects>
             <point key="canvasLocation" x="1409" y="938"/>
         </scene>
-        <!--View Controller-->
+        <!--Details View Controller-->
         <scene sceneID="WZC-r7-t4j">
             <objects>
-                <viewController id="rwV-p5-Fbg" sceneMemberID="viewController">
+                <viewController id="rwV-p5-Fbg" customClass="DetailsViewController" customModule="FEFU_informer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hPK-fm-gNN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="mob-wC-bhX">
+                                <rect key="frame" x="20" y="79" width="280" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dtX-nC-tFP">
+                                <rect key="frame" x="20" y="293" width="280" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="se1-Cg-C3C"/>
+                    <connections>
+                        <outlet property="descriptionText" destination="dtX-nC-tFP" id="Sq0-XQ-yU7"/>
+                        <outlet property="imageView" destination="mob-wC-bhX" id="tlM-ju-dU5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gPt-sh-tfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

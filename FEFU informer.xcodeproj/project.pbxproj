@@ -10,6 +10,7 @@
 		AA80E7514E3490E03CF50033 /* Pods_FEFU_informer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036F45022683FEFE452AF12 /* Pods_FEFU_informer.framework */; };
 		C90111EB1BE1FEBB00DFB761 /* OfficialEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90111EA1BE1FEBB00DFB761 /* OfficialEventsViewController.swift */; };
 		C90111ED1BE2008600DFB761 /* OfficialEventsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90111EC1BE2008600DFB761 /* OfficialEventsViewCell.swift */; };
+		C950F7911BE49FE200CB7926 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950F7901BE49FE200CB7926 /* DetailsViewController.swift */; };
 		C9B9A44C1BDDF4AA0066A9A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9A44B1BDDF4AA0066A9A0 /* AppDelegate.swift */; };
 		C9B9A44E1BDDF4AA0066A9A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9A44D1BDDF4AA0066A9A0 /* ViewController.swift */; };
 		C9B9A4511BDDF4AA0066A9A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B9A44F1BDDF4AA0066A9A0 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		A036F45022683FEFE452AF12 /* Pods_FEFU_informer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FEFU_informer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90111EA1BE1FEBB00DFB761 /* OfficialEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfficialEventsViewController.swift; sourceTree = "<group>"; };
 		C90111EC1BE2008600DFB761 /* OfficialEventsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfficialEventsViewCell.swift; sourceTree = "<group>"; };
+		C950F7901BE49FE200CB7926 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		C9B9A4481BDDF4AA0066A9A0 /* FEFU informer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FEFU informer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B9A44B1BDDF4AA0066A9A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B9A44D1BDDF4AA0066A9A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				C9B9A44F1BDDF4AA0066A9A0 /* Main.storyboard */,
 				C90111EA1BE1FEBB00DFB761 /* OfficialEventsViewController.swift */,
 				C90111EC1BE2008600DFB761 /* OfficialEventsViewCell.swift */,
+				C950F7901BE49FE200CB7926 /* DetailsViewController.swift */,
 				C9B9A4521BDDF4AA0066A9A0 /* Assets.xcassets */,
 				C9B9A4541BDDF4AA0066A9A0 /* LaunchScreen.storyboard */,
 				C9B9A4571BDDF4AA0066A9A0 /* Info.plist */,
@@ -220,6 +223,7 @@
 				C9B9A44E1BDDF4AA0066A9A0 /* ViewController.swift in Sources */,
 				C90111EB1BE1FEBB00DFB761 /* OfficialEventsViewController.swift in Sources */,
 				C9B9A44C1BDDF4AA0066A9A0 /* AppDelegate.swift in Sources */,
+				C950F7911BE49FE200CB7926 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

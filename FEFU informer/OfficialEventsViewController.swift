@@ -35,15 +35,31 @@ class OfficialEventsViewController: UICollectionViewController {
         cell.eventTitle?.text = self.appleProducts[indexPath.row]
         
         cell.eventDescription?.text = self.appleProducts[indexPath.row]
+        cell.eventDescription?.editable = false
+        
+        cell.layer.borderColor = UIColor.lightGrayColor().CGColor
+        cell.layer.borderWidth = 1
         
         return cell
         
     }
     
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath){
-        print("item selected")
+        print(indexPath.row)
+        self.performSegueWithIdentifier("showDetails", sender: self)
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showDetails"{
+            let indexPaths = self.collectionView!.indexPathsForSelectedItems()!
+            let indexPath = indexPaths[0] as NSIndexPath
+            let vc = segue.destinationViewController as! DetailsViewController
+            vc.image = self.imageArray[indexPath.row]!
+            vc.text = self.appleProducts[indexPath.row]
+            vc.title = self.appleProducts[indexPath.row]
+
+        }
+    }
     
     
     
