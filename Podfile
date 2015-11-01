@@ -4,7 +4,9 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'FEFU informer' do
-pod 'SWRevealViewController'
 pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'EVReflection'
+pod 'AlamofireJsonToObjects'
 end
 

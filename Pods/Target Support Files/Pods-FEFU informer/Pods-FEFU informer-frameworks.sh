@@ -85,9 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-FEFU informer/Alamofire.framework"
-  install_framework "Pods-FEFU informer/SWRevealViewController.framework"
+  install_framework "Pods-FEFU informer/AlamofireJsonToObjects.framework"
+  install_framework "Pods-FEFU informer/EVReflection.framework"
+  install_framework "Pods-FEFU informer/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-FEFU informer/Alamofire.framework"
-  install_framework "Pods-FEFU informer/SWRevealViewController.framework"
+  install_framework "Pods-FEFU informer/AlamofireJsonToObjects.framework"
+  install_framework "Pods-FEFU informer/EVReflection.framework"
+  install_framework "Pods-FEFU informer/SwiftyJSON.framework"
 fi

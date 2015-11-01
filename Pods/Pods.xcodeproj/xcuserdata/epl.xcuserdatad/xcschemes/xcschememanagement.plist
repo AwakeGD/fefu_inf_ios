@@ -9,12 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AlamofireJsonToObjects.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>EVReflection.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-FEFU informer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SWRevealViewController.xcscheme</key>
+		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,7 +32,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3E0210DD82735B4F44C3697DCFD1CA01</key>
+		<key>0E069A7F62240304953BDB3B423F07AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>35DFDD3E74D84D9C5C4D18092913AC7A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -32,7 +47,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7B1FA322724B635C4B2EA0C2787CA066</key>
+		<key>67497F11676A5CE384D2CE98F0CCEDF8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F47987FF034F5E67513DA9E32A7D650F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
