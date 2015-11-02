@@ -6,7 +6,7 @@ use_frameworks!
 target 'FEFU informer' do
 pod 'Alamofire'
 pod 'SwiftyJSON'
-pod 'EVReflection'
-pod 'AlamofireJsonToObjects'
+pod 'Haneke'
+pod 'NVActivityIndicatorView'
 end
 

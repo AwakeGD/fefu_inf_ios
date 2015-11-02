@@ -115,17 +115,17 @@
                     </tabBar>
                     <connections>
                         <segue destination="tbP-Fu-ZF7" kind="relationship" relationship="viewControllers" id="Rwk-bf-aVe"/>
-                        <segue destination="TKA-l8-h3w" kind="relationship" relationship="viewControllers" id="0Ie-Qm-wW6"/>
+                        <segue destination="AWy-4a-xj1" kind="relationship" relationship="viewControllers" id="qY8-CJ-1ps"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zYB-3o-mT3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="916" y="916"/>
+            <point key="canvasLocation" x="878" y="958"/>
         </scene>
         <!--Официальные события-->
         <scene sceneID="g2C-Tk-M7p">
             <objects>
-                <collectionViewController id="tbP-Fu-ZF7" customClass="OfficialEventsViewController" customModule="FEFU_informer" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController title="Официальные события" id="tbP-Fu-ZF7" customClass="OfficialEventsViewController" customModule="FEFU_informer" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="05W-5T-rEK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,33 +193,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K7L-vW-df2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1409" y="938"/>
-        </scene>
-        <!--Неофициальные события-->
-        <scene sceneID="xMA-Oo-QAu">
-            <objects>
-                <viewController id="TKA-l8-h3w" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yXn-lx-ys4">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Тут будут неофициальные" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4XM-Fi-jPq">
-                                <rect key="frame" x="55" y="273" width="210" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Неофициальные события" id="2GA-Qm-GQu"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XwU-Q9-qYM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1217" y="1671"/>
+            <point key="canvasLocation" x="1427" y="916"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="WZC-r7-t4j">
@@ -239,7 +213,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -254,7 +228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gPt-sh-tfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1850" y="938"/>
+            <point key="canvasLocation" x="1850" y="916"/>
         </scene>
         <!--Официально-->
         <scene sceneID="i0g-bT-NXi">
@@ -267,7 +241,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="S0C-iC-kc1" detailTextLabel="EJV-te-NSQ" imageView="3Xy-t7-pA0" style="IBUITableViewCellStyleSubtitle" id="fTG-y3-bcB">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fTG-y3-bcB" id="buq-L8-qsZ">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -381,6 +355,114 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q18-Gt-XZB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5" y="365"/>
+        </scene>
+        <!--Неофициальные события-->
+        <scene sceneID="gkE-La-YRd">
+            <objects>
+                <collectionViewController title="Неофициальные события" id="AWy-4a-xj1" customClass="UnofficialEventsViewController" customModule="FEFU_informer" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="LPO-kl-qrv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="W2R-t9-EtL">
+                            <size key="itemSize" width="270" height="319"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="10" maxX="0.0" maxY="200"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="officialEventCell" id="gRA-e0-JDH" customClass="OfficialEventsViewCell" customModule="FEFU_informer" customModuleProvider="target">
+                                <rect key="frame" x="25" y="74" width="270" height="319"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="270" height="319"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="h3b-9F-Cbv">
+                                            <rect key="frame" x="15" y="8" width="240" height="160"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <animations/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Заголовок" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k87-rE-BhI">
+                                            <rect key="frame" x="15" y="181" width="240" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" id="0yc-N6-Bck">
+                                            <rect key="frame" x="15" y="209" width="247" height="94"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <animations/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                    </subviews>
+                                    <animations/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <animations/>
+                                <connections>
+                                    <outlet property="eventDescription" destination="0yc-N6-Bck" id="jAW-Jr-tII"/>
+                                    <outlet property="eventTitle" destination="k87-rE-BhI" id="38E-Ts-7FL"/>
+                                    <outlet property="imageView" destination="h3b-9F-Cbv" id="6jH-5L-5UO"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="AWy-4a-xj1" id="J2t-lh-wAO"/>
+                            <outlet property="delegate" destination="AWy-4a-xj1" id="Csa-c3-Vyf"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Официальные события" id="ehL-41-3qZ" userLabel="Неофициальные события"/>
+                    <connections>
+                        <outlet property="collectionView" destination="LPO-kl-qrv" id="aZC-bQ-81J"/>
+                        <outlet property="officialEventsCollectionView" destination="LPO-kl-qrv" id="uHf-3e-aRM"/>
+                        <segue destination="NYL-on-5jg" kind="push" id="YRK-hk-5xN"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RgA-1d-Px6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1427" y="1659"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="Yn7-Sl-8Dg">
+            <objects>
+                <viewController id="NYL-on-5jg" customClass="DetailsViewController" customModule="FEFU_informer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1dR-dw-aVc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="0OY-AI-7g5">
+                                <rect key="frame" x="20" y="79" width="280" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="B81-AC-cqJ">
+                                <rect key="frame" x="20" y="293" width="280" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pcX-bo-nDT"/>
+                    <connections>
+                        <outlet property="descriptionText" destination="B81-AC-cqJ" id="zht-yp-i61"/>
+                        <outlet property="imageView" destination="0OY-AI-7g5" id="P1t-J8-ZYO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XpB-h2-Atv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1850" y="1659"/>
         </scene>
     </scenes>
     <resources>

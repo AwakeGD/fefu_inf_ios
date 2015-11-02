@@ -9,12 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>AlamofireJsonToObjects.xcscheme</key>
+		<key>Haneke.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>EVReflection.xcscheme</key>
+		<key>NVActivityIndicatorView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0E069A7F62240304953BDB3B423F07AB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>35DFDD3E74D84D9C5C4D18092913AC7A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>432ECC54282C84882B482CCB4CF227FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>67497F11676A5CE384D2CE98F0CCEDF8</key>
+		<key>46A5DE0A4280FA63F2400C0644C38FF5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F47987FF034F5E67513DA9E32A7D650F</key>
+		<key>522ABDB1CB8921DF75A7D674923EE40A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>721F5C363890DB3021CD23661305B2A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD4B29FDEDC0C38B309F4177FF911D3F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

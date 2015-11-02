@@ -1,8 +1,8 @@
 //
-//  File.swift
+//  UnofficialEventsViewController.swift
 //  FEFU informer
 //
-//  Created by Илья on 29.10.15.
+//  Created by Илья on 02.11.15.
 //  Copyright © 2015 AwakeGD. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ import SwiftyJSON
 import NVActivityIndicatorView
 import Haneke
 
-class OfficialEventsViewController: UICollectionViewController {
+class UnofficialEventsViewController: UICollectionViewController {
     
     @IBOutlet weak var officialEventsCollectionView: UICollectionView!
     
@@ -24,7 +24,7 @@ class OfficialEventsViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.officialEventsCollectionView.backgroundColor = UIColor.whiteColor()
-        Alamofire.request(.GET, "http://31.131.24.188:8080/newsLine/0&o", parameters: nil)
+        Alamofire.request(.GET, "http://31.131.24.188:8080/newsLine/0&u", parameters: nil)
             .responseJSON { response in
                 if let JSON = response.result.value{
                     for object in JSON as! [AnyObject]{
@@ -38,7 +38,7 @@ class OfficialEventsViewController: UICollectionViewController {
                 
         }
         
-
+        
     }
     
     
@@ -76,7 +76,7 @@ class OfficialEventsViewController: UICollectionViewController {
             vc.image = self.imageArray[indexPath.row]
             vc.text = self.descriptionArray[indexPath.row]
             vc.title = self.titleArray[indexPath.row]
-
+            
         }
     }
     
