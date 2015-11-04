@@ -7,6 +7,4 @@ target 'FEFU informer' do
 pod 'Alamofire'
 pod 'SwiftyJSON'
 pod 'Haneke'
-pod 'NVActivityIndicatorView'
 end
-

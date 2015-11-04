@@ -17,6 +17,8 @@
 		C9B9A4511BDDF4AA0066A9A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B9A44F1BDDF4AA0066A9A0 /* Main.storyboard */; };
 		C9B9A4531BDDF4AA0066A9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B9A4521BDDF4AA0066A9A0 /* Assets.xcassets */; };
 		C9B9A4561BDDF4AA0066A9A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B9A4541BDDF4AA0066A9A0 /* LaunchScreen.storyboard */; };
+		C9E5F4041BEA3D1300F9DD63 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E5F4031BEA3D1300F9DD63 /* RegistrationViewController.swift */; };
+		C9E5F4061BEA4D7B00F9DD63 /* RegistrationConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E5F4051BEA4D7B00F9DD63 /* RegistrationConfirmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		C9B9A4521BDDF4AA0066A9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9B9A4551BDDF4AA0066A9A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9B9A4571BDDF4AA0066A9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E5F4031BEA3D1300F9DD63 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		C9E5F4051BEA4D7B00F9DD63 /* RegistrationConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationConfirmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				C9B9A4541BDDF4AA0066A9A0 /* LaunchScreen.storyboard */,
 				C9B9A4571BDDF4AA0066A9A0 /* Info.plist */,
 				C90CDF061BE776FE00807E5F /* UnofficialEventsViewController.swift */,
+				C9E5F4031BEA3D1300F9DD63 /* RegistrationViewController.swift */,
+				C9E5F4051BEA4D7B00F9DD63 /* RegistrationConfirmViewController.swift */,
 			);
 			path = "FEFU informer";
 			sourceTree = "<group>";
@@ -226,6 +232,8 @@
 				C9B9A44E1BDDF4AA0066A9A0 /* ViewController.swift in Sources */,
 				C90111EB1BE1FEBB00DFB761 /* OfficialEventsViewController.swift in Sources */,
 				C90CDF071BE776FE00807E5F /* UnofficialEventsViewController.swift in Sources */,
+				C9E5F4061BEA4D7B00F9DD63 /* RegistrationConfirmViewController.swift in Sources */,
+				C9E5F4041BEA3D1300F9DD63 /* RegistrationViewController.swift in Sources */,
 				C9B9A44C1BDDF4AA0066A9A0 /* AppDelegate.swift in Sources */,
 				C950F7911BE49FE200CB7926 /* DetailsViewController.swift in Sources */,
 			);

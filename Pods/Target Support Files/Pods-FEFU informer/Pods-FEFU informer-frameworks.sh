@@ -86,12 +86,10 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-FEFU informer/Alamofire.framework"
   install_framework "Pods-FEFU informer/Haneke.framework"
-  install_framework "Pods-FEFU informer/NVActivityIndicatorView.framework"
   install_framework "Pods-FEFU informer/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-FEFU informer/Alamofire.framework"
   install_framework "Pods-FEFU informer/Haneke.framework"
-  install_framework "Pods-FEFU informer/NVActivityIndicatorView.framework"
   install_framework "Pods-FEFU informer/SwiftyJSON.framework"
 fi
